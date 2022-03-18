@@ -22,9 +22,9 @@ body > header:nth-child(2) {
   padding: 1.5rem;
 }
 
-header {
+/* header {
   text-align: center;
-}
+} */
 
 #contact {
   background-color: darkslategray;
@@ -48,6 +48,14 @@ header {
 .form_group {
   display: flex;
   flex-direction: column;
+}
+#graphical {
+  width: 30vw;
+  height: 30vw;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 300px;
+  background-color: burlywood;
 }
 
 #message {
@@ -81,6 +89,7 @@ body > nav:nth-child(1) {
 
 #logo {
   font-size: 2rem;
+  font-family: "Bungee", cursive;
 }
 a {
   color: white;
@@ -210,6 +219,7 @@ body > footer:nth-child(8) {
     background-color: darkslategray;
     color: white;
   }
+
   button {
     border: none;
     padding: 8px;
@@ -239,11 +249,12 @@ body > footer:nth-child(8) {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vw;
-    padding: 2rem;
+    padding: 4rem;
     align-items: center;
     background-color: darkslategray;
     color: white;
+    gap: 4rem;
+    height: 100%;
   }
 
   .header_text > button:nth-child(3) {
@@ -255,7 +266,7 @@ body > footer:nth-child(8) {
     min-width: 300px;
     min-height: 300px;
     border-radius: 300px;
-    background-color: darkslategray;
+    background-color: burlywood;
   }
   .advantages_cards {
     display: grid;
@@ -473,5 +484,8 @@ body > footer:nth-child(8) {
   #message {
     width: 100%;
     height: 30vh;
+  }
+  .header_text > h1:nth-child(1) {
+    font-size: 4rem;
   }
 }
